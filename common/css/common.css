@@ -1,5 +1,5 @@
 /* 顶部导航栏 */
- .c_nav {
+.c_nav {
     position: fixed;
     top: 0;
     left: 0;
@@ -31,10 +31,6 @@
 .c_menu {
     margin-left: 0.12rem;
 }
-/* 
-.c_nav_1:hover .c_nav_2 {
-    right: -0.16rem;
-} */
 
 .c_nav_back {
     position: absolute;
@@ -94,7 +90,7 @@
     width: 100%;
     height: calc(100% - 0.56rem);
     overflow-y: scroll;
-    background-color: pink;
+    background-color: #fff;
 }
 
 .c_nav_2__active {
@@ -151,6 +147,11 @@
     opacity: 0;
 }
 
+/* .c_nav_2_2 li:hover img {
+    opacity: 1;
+    transform: rotate(90deg);
+} */
+
 .c_nav_details .c_nav_details_1__active {
     display: block;
 }
@@ -159,13 +160,6 @@
     display: none;
     padding-top: 0.3rem;
 }
-
-/* .c_nav_details_1 li {
-    height: 0;
-}
-.c_nav_2_2 li:hover .c_nav_details_1 li {
-
-} */
 
 .c_nav_details_1 a {
     display: block;

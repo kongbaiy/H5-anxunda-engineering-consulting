@@ -1,0 +1,93 @@
+body,
+ul,
+li,
+dl,
+dt,
+dd,
+p,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+img,
+table,
+fieldset,
+legend,
+input,
+textarea,
+iframe {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+  border: none;
+}
+
+body {
+  font-size: 0;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: #333;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -moz-user-focus: none;
+  -moz-user-select: none;
+}
+
+a:hover,
+a:active,
+a:visited,
+a:link,
+a:focus {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  background: none;
+  text-decoration: none;
+}
+
+img,
+input,
+button {
+  border: none;
+}
+
+input,
+button,
+textarea {
+  outline: none;
+}
+
+button {
+  background-color: transparent;
+}
+
+textarea {
+  resize: none;
+  border: 0;
+}
+
+input,
+textarea {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}

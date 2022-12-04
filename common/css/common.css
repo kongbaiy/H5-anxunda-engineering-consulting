@@ -112,12 +112,22 @@
 }
 
 .c_nav_details_2__active img {
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
     opacity: 0;
+    transition: all 100ms;
+    -webkit-transition: all 100ms;
+    -moz-transition: all 100ms;
+    -ms-transition: all 100ms;
+    -o-transition: all 100ms;
 }
 
 .c_nav_details_2__active + .c_nav_details img {
-    transform: rotate(90deg);
     opacity: 1;
+    transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);

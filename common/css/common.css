@@ -116,6 +116,10 @@
 }
 
 .c_nav_details_2__active img {
+    opacity: 0;
+}
+
+.c_nav_details_2__active + .c_nav_details img {
     transform: rotate(90deg);
     opacity: 1;
     -webkit-transform: rotate(90deg);

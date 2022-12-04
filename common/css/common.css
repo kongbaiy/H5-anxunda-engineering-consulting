@@ -9,6 +9,13 @@
     padding: 0 0.16rem;
     width: 100%;
     height: 0.56rem;
+    background-color: #fff;
+    z-index: 99;
+}
+
+.location {
+    width: 100%;
+    height: 0.56rem;
 }
 
 .c_nav_1 {
@@ -51,6 +58,7 @@
     z-index: 6;
     width: 2.45rem;
     height: 100%;
+    z-index: 999;
 }
 
 .c_nav_2_1 {
@@ -125,7 +133,7 @@
     -o-transition: all 100ms;
 }
 
-.c_nav_details_2__active + .c_nav_details img {
+.c_nav_details_2__active+.c_nav_details img {
     opacity: 1;
     transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
@@ -160,11 +168,6 @@
     right: 0;
     opacity: 0;
 }
-
-/* .c_nav_2_2 li:hover img {
-    opacity: 1;
-    transform: rotate(90deg);
-} */
 
 .c_nav_details .c_nav_details_1__active {
     display: block;
@@ -214,4 +217,135 @@
     -moz-transition: all 200ms;
     -ms-transition: all 200ms;
     -o-transition: all 200ms;
+}
+
+/* 底部菜单栏 */
+.c_footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 0.72rem;
+}
+
+.c_footer li {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(199, 195, 196);
+    font-size: 0.12rem;
+    color: #3E3F40;
+}
+
+.c_footer li:hover a {
+    color: #1D6CBF;
+}
+
+.c_footer li:hover .c_function_1 {
+    opacity: 1;
+}
+
+.c_footer li:hover .c_function {
+    opacity: 0;
+}
+
+.c_footer li a {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 0.12rem;
+}
+
+.c_function,
+.c_function_1 {
+    margin-bottom: 0.08rem;
+    width: 0.24rem;
+    height: 0.24rem;
+    background-color: transparent;
+}
+
+.c_function_1 {
+    position: absolute;
+    top: 0.12rem;
+    opacity: 0;
+}
+
+/* 底部 */
+
+.c_footer_b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.35rem;
+    width: 100%;
+    height: 4.48rem;
+    background-color: #252626;
+    line-height: 1;
+}
+
+.c_footer_b img {
+    background-color: transparent;
+}
+
+.c_1994 {
+    margin-bottom: 0.18rem;
+    width: 1.13rem;
+    height: 0.19rem;
+}
+
+.c_slogan {
+    margin-bottom: 0.15rem;
+    width: 2.16rem;
+    height: 0.19rem;
+}
+
+.c_code {
+    margin-bottom: 0.12rem;
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+.c_wechat {
+    margin-bottom: 0.32rem;
+    font-size: 0.14rem;
+    color: #C8CACC;
+}
+
+.c_name {
+    margin-bottom: 0.12rem;
+    font-size: 0.2rem;
+    color: #C8CACC;
+}
+
+.c_name_y {
+    margin-bottom: 0.22rem;
+    font-size: 0.12rem;
+    color: #C8CACC;
+}
+
+.c_cross {
+    margin-bottom: 0.22rem;
+    width: 3.27rem;
+    height: 0.01rem;
+    background-color: #3E3F40;
+}
+
+.c_copyright,
+.c_support {
+    margin-bottom: 0.12rem;
+    font-size: 0.12rem;
+    color: #646566;
+}
+
+.c_support {
+    display: flex;
+    flex-direction: row;
+}
+
+.c_support span {
+    margin-left: 0.2rem;
 }

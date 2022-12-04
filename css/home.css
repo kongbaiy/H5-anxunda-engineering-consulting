@@ -1,11 +1,292 @@
-/* div {
-    font-size: 0.2rem;
-} */
-
-img {
-    background-color: black;
+.home {
+    width: 100%;
 }
 
-span {
+/* 轮播图 */
+.shuffling {
+    width: 100%;
+    height: 4rem;
+}
+
+/* 最新公告 */
+.announcement {
+    display: flex;
+    align-items: center;
+    padding: 0 0.16rem;
+    width: 100%;
+    height: 0.68rem;
+    background-color: #F5F7FA;
+    font-size: 0.14rem;
+    color: #3E3F40;
+}
+
+.announcement img {
+    margin-right: 0.08rem;
+    width: 0.2rem;
+    height: 0.2rem;
+    background-color: transparent;
+}
+
+.announcement p {
+    margin-left: 0.08rem;
+    color: #646566;
+}
+
+/* 公司简介 */
+.introduce {
+    position: relative;
+    padding-top: 3.8rem;
+    width: 100%;
+    height: 6.3rem;
+}
+
+.int_img {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1.24rem;
+    width: 100%;
+    height: 2.5rem;
+    background: url(../imgs/upload/gongsijianjie-375-250.jpg) no-repeat;
+    background-size: cover;
+}
+
+.int_img img {
+    width: 1.2rem;
+    height: 0.84rem;
+}
+
+.int_details {
+    position: absolute;
+    top: 0;
+    left: 0.16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.29rem;
+    width: 3.43rem;
+    height: 4.68rem;
+    background-color: #fff;
+}
+
+/* 标题 */
+.the_title {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.24rem;
+    width: 3.19rem;
+    height: 0.34rem;
+}
+
+.title_eng {
+    position: absolute;
+    top: 0.06rem;
+    width: 3.17rem;
+    height: 0.25rem;
+}
+
+.title_chi {
+    position: absolute;
+    top: 0.08rem;
+    font-size: 0.19rem;
+    color: #252626;
+}
+
+.int_details_1 {
+    margin-bottom: 0.32rem;
+    height: 2.74rem;
+    font-size: 0.14rem;
+    line-height: 0.28rem;
+    color: #3E3F40;
+}
+
+.int_more {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.int_more img {
+    width: 0.4rem;
+    height: 0.4rem;
+}
+
+/* 服务项目 */
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.24rem;
+    width: 100%;
+    height: 5.38rem;
+    background-color: #F5F7FA;
+}
+
+.project .the_title .title_eng {
+    width: 1.3rem;
+}
+
+.pro_details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.24rem;
+    width: 3.43rem;
+    height: 3.8rem;
+    background: url(../imgs/upload/fuwuxiangmu-343-380.jpg) no-repeat;
+    background-size: cover;
+}
+
+.pro_details_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1.12rem;
+    width: 2.23rem;
+    height: 3.8rem;
+    background: linear-gradient(0deg, #0E4B8C 21%, rgba(23, 125, 230, 0.60) 96%);
+    color: #fff;
+}
+
+.pro_details_1 img {
+    width: 0.56rem;
+    height: 0.56rem;
+}
+
+.pro_cross {
+    margin: 0.24rem 0;
+    width: 0.32rem;
+    height: 0.03rem;
+    background-color: #FFFFFF;
+}
+
+.pro_chi {
+    margin-bottom: 0.12rem;
+    font-size: 0.16rem;
+}
+
+.pro_eng {
+    font-size: 0.12rem;
+}
+
+.pro_list {
+    display: flex;
+}
+
+.pro_list li {
+    margin: 0 0.045rem;
+    width: 0.12rem;
+    height: 0.12rem;
+    background-color: #E1E3E5;
+    border-radius: 0.06rem;
+    transition: all .2s;
+}
+
+.pro_list li:hover {
+    background-color: #1D6CBF;
+    width: 0.24rem;
+}
+
+/* 业绩展示 */
+.results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.24rem;
+    width: 100%;
+    height: 13.18rem;
+}
+
+.results .the_title .title_eng {
+    width: 2.33rem;
+}
+
+.res_nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-bottom: 0.2rem;
+    width: 3.43rem;
+    height: 0.84rem;
+}
+
+.res_nav li {
+    width: 1.06rem;
+    height: 0.36rem;
+}
+
+.res_nav li a {
     display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #F5F7FA;
+    font-size: 0.14rem;
+    text-align: center;
+    line-height: 0.36rem;
+    color: #575859;
+}
+
+.res_nav li a:hover {
+    background-color: #1D6CBF;
+    color: #fff;
+}
+
+.res_detailed {
+    display: block;
+    margin-bottom: 0.16rem;
+    width: 3.43rem;
+    height: 2.4rem;
+    background: url(../imgs/upload/jiudian-343-240.jpg) no-repeat;
+    background-size: cover;
+}
+
+.res_detailed a {
+    display: block;
+    padding-top: 1.4rem;
+    width: 100%;
+    height: 100%;
+}
+
+.res_mask {
+    display: block;
+    padding-top: 0.65rem;
+    width: 100%;
+    height: 1rem;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 28%, rgba(0, 0, 0, 0.00) 100%);
+    font-size: 0.15rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+.res_more {
+    overflow: hidden;
+    margin-top: 0.24rem;
+    width: 3.27rem;
+    height: 0.44rem;
+    border-radius: 0.22rem;
+    background-color: #1D6CBF;
+}
+
+.res_more a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 0.14rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.44rem;
+
+}
+
+/* 公司优势 */
+.advantage {
+    width: 100%;
+    height: 7.12rem;
+    background: url(../imgs/upload/gongsiyoushi-375-712.jpg) no-repeat;
+    background-size: cover;
 }

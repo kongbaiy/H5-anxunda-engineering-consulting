@@ -1,5 +1,5 @@
 /* 顶部导航栏 */
-.c_nav {
+ .c_nav {
     position: fixed;
     top: 0;
     left: 0;
@@ -31,12 +31,10 @@
 .c_menu {
     margin-left: 0.12rem;
 }
-
+/* 
 .c_nav_1:hover .c_nav_2 {
-    position: absolute;
-    top: -0.14rem;
     right: -0.16rem;
-}
+} */
 
 .c_nav_back {
     position: absolute;
@@ -48,11 +46,15 @@
 }
 
 .c_nav_2 {
-    position: absolute;
-    top: -0.14rem;
+    position: fixed;
+    top: 0;
     right: -2.61rem;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
     transition: all .5s;
-    z-index: 2;
+    z-index: 6;
+    width: 2.45rem;
+    height: 100%;
 }
 
 .c_nav_2_1 {
@@ -74,21 +76,29 @@
     line-height: 1;
 }
 
-.c_phone_1_1,
+.c_phone_1_1 {
+    margin-right: 0.05rem;
+    width: 0.26rem;
+    height: 0.26rem;
+    background-color: transparent;
+}
+
 .c_cha {
-    width: 0.28rem;
-    height: 0.28rem;
+    width: 0.24rem;
+    height: 0.24rem;
     background-color: transparent;
 }
 
 .c_nav_2_2 {
-    /* padding: 0.16rem 0.16rem 0 0.24rem; */
+    padding: 0.16rem 0.16rem 0 0.24rem;
     width: 100%;
-    /* height: 19.18rem; */
-    /* height: 4rem; */
-    height: 100%;
+    height: calc(100% - 0.56rem);
     overflow-y: scroll;
     background-color: pink;
+}
+
+.c_nav_2__active {
+    right: 0;
 }
 
 .c_nav_2_2>li {
@@ -100,14 +110,18 @@
     transition: all .2s;
 }
 
-.c_nav_2_2 li:hover .c_nav_details_2 {
+.c_nav_details_2__active {
     font-weight: 700;
     color: #1D6CBF;
 }
 
-.c_nav_2_2 li:hover img {
+.c_nav_details_2__active img {
     transform: rotate(90deg);
     opacity: 1;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
 }
 
 .c_nav_details_2 {
@@ -137,7 +151,7 @@
     opacity: 0;
 }
 
-.c_nav_2_2 li:hover .c_nav_details_1 {
+.c_nav_details .c_nav_details_1__active {
     display: block;
 }
 
@@ -165,4 +179,31 @@
 
 .c_nav_details_1 li:hover a {
     color: #1D6CBF;
+}
+
+.c_nav_2_mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: all 200ms;
+    -webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+    -ms-transition: all 200ms;
+    -o-transition: all 200ms;
+}
+
+.c_nav_2_mask__active {
+    display: block;
+    z-index: 1;
+    opacity: 1;
+    transition: all 200ms;
+    -webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+    -ms-transition: all 200ms;
+    -o-transition: all 200ms;
 }

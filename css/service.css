@@ -1,0 +1,175 @@
+/* 主图 */
+.top_img {
+    width: 100%;
+    height: 2.4rem;
+}
+
+/* 工程咨询 */
+.engineering {
+    display: flex;
+    margin: 0 auto 0.24rem;
+    padding-top: 0.19rem;
+    width: 3.43rem;
+    height: 1.14rem;
+    border-bottom: 0.01rem solid #E1E3E5;
+}
+
+.eng_ico {
+    margin-right: 0.2rem;
+    width: 0.6rem;
+    height: 0.6rem;
+}
+
+.eng_name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.63rem;
+    height: 0.62rem;
+    line-height: 1;
+}
+
+.eng_name_chi {
+    font-size: 0.24rem;
+    color: #252626;
+}
+
+.eng_cross {
+    width: 0.28rem;
+    height: 0.02rem;
+    background-color: #1D6CBF;
+}
+
+.eng_name_eng {
+    font-size: 0.12rem;
+    color: #BBBDBF;
+}
+
+/* 工程咨询列表 */
+.engineering_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin: 0 auto 0.32rem;
+    width: 3.43rem;
+    height: 0.84rem;
+}
+
+.engineering_list li {
+    width: 1.06rem;
+    height: 0.36rem;
+    background-color: #F5F7FA;
+    font-size: 0.14rem;
+    text-align: center;
+    line-height: 0.36rem;
+}
+
+.engineering_list li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #575859;
+
+}
+
+.engineering_list li:nth-child(4) {
+    width: 1.56rem;
+}
+
+.engineering_list li:hover {
+    background-color: #1D6CBF;
+}
+
+.engineering_list li:hover a {
+    color: #fff;
+}
+
+/* 图片 */
+.eng_img {
+    width: 100%;
+    height: 3.12rem;
+}
+
+/* 服务简介 */
+.introduction {
+    padding-top: 0.32rem;
+    margin: 0 auto;
+    width: 3.43rem;
+    height: 6.44rem;
+}
+
+.int_title {
+    padding-left: 0.08rem;
+    margin-bottom: 0.13rem;
+    font-size: 0.2rem;
+    color: #252626;
+    border-left: 0.04rem solid #1D6CBF;
+    line-height: 1;
+}
+
+.int_content {
+    margin-bottom: 0.33rem;
+    font-size: 0.14rem;
+    line-height: 0.28rem;
+    color: #252626;
+}
+
+/* 工程咨询列表 */
+.int_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.32rem;
+    width: 100%;
+    height: 11.64rem;
+    background-color: #F5F7FA;
+}
+
+.int_title_1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.24rem;
+    width: 3.43rem;
+    height: 0.4rem;
+    font-size: 0.2rem;
+    color: #252626;
+    line-height: 1;
+    border-bottom: 0.01rem solid #E1E3E5;
+}
+
+.int_title_1 a {
+    display: inline-block;
+    margin-top: 0.06rem;
+    font-size: 0.14rem;
+    font-weight: 400;
+    color: #BBBDBF;
+}
+
+.int_detailed {
+    display: block;
+    margin-bottom: 0.16rem;
+    width: 3.43rem;
+    height: 2.4rem;
+    background: url(../imgs/upload/jiudian-343-240.jpg) no-repeat;
+    background-size: cover;
+}
+
+.int_detailed a {
+    display: block;
+    padding-top: 1.4rem;
+    width: 100%;
+    height: 100%;
+}
+
+.int_mask {
+    display: block;
+    padding-top: 0.65rem;
+    width: 100%;
+    height: 1rem;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 28%, rgba(0, 0, 0, 0.00) 100%);
+    font-size: 0.15rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}

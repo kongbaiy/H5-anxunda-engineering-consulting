@@ -1,0 +1,111 @@
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 主图 */
+.top_img {
+    width: 100%;
+    height: 2.4rem;
+}
+
+/* 搜索 */
+.ann_search {
+    position: relative;
+    padding-top: 0.24rem;
+    width: 3.43rem;
+    height: 0.88rem;
+}
+
+.region {
+    padding: 0 0.12rem;
+    width: 1.2rem;
+    height: 0.48rem;
+    background-color: #F5F7FA;
+    font-size: 0.14rem;
+    color: #BBBDBF;
+    border-color: transparent;
+}
+
+.search {
+    float: right;
+    padding: 0 0.12rem;
+    width: 2.11rem;
+    height: 0.48rem;
+    background-color: #F5F7FA;
+}
+
+.click {
+    position: absolute;
+    right: 0;
+    width: 0.72rem;
+    height: 0.48rem;
+    background-color: #1D6CBF;
+    font-size: 0.16rem;
+    color: #fff;
+}
+
+/* 招标公告列表 */
+.ann_lest {
+    padding-top: 0.17rem;
+    width: 3.43rem;
+    height: 1.38rem;
+    border-bottom: 0.01rem solid #E1E3E5;
+}
+
+.ann_title {
+    margin-bottom: 0.14rem;
+    font-size: 0.16rem;
+    font-weight: 500;
+    line-height: 0.3rem;
+    color: #252626;
+}
+
+.ann_subtitle {
+    width: 100%;
+    height: 0.14rem;
+    font-size: 0.14rem;
+    color: #BBBDBF;
+    line-height: 1;
+}
+
+.ann_segmentation {
+    display: inline-block;
+    margin-left: 0.17rem;
+    padding-left: 0.16rem;
+    border-left: 0.01rem solid #D8D8D8;
+}
+
+.ann_subtitle_r {
+    float: right;
+}
+
+.ann_jump {
+    display: flex;
+    margin: 0.4rem 0 0.6rem;
+    width: 3.45rem;
+    height: 0.5rem;
+    border: 0.01rem solid #F5F7FA;
+}
+
+.ann_jump li {
+    width: 1.14rem;
+    height: 100%;
+    font-size: 0.16rem;
+    color: #252626;
+    text-align: center;
+    line-height: 0.5rem;
+}
+
+.ann_jump li:nth-child(1),
+.ann_jump li:nth-child(3) {
+    background-color: #F5F7FA;
+}
+
+.ann_jump li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #252626;
+}

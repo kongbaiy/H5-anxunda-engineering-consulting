@@ -1,0 +1,95 @@
+.top_img {
+    width: 100%;
+    height: 2.4rem;
+}
+
+.case_nav {
+    display: flex;
+    padding-top: 0.32rem;
+    margin: 0 auto 0.25rem;
+    width: 3.43rem;
+    height: 0.64rem;
+    border-bottom: 0.01rem solid #E1E3E5;
+}
+
+.case_nav li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 0.16rem;
+    width: 0.64rem;
+    height: 0.32rem;
+    font-size: 0.14rem;
+    color: #252626;
+    line-height: 1;
+}
+
+.case_nav li:hover {
+    font-weight: 700;
+    color: #1D6CBF;
+}
+
+.case_nav li:hover .case_bott {
+    opacity: 1;
+}
+
+.case_bott {
+    opacity: 0;
+    display: inline-block;
+    width: 0.32rem;
+    transition: all .2s;
+    height: 0.04rem;
+    border-radius: 0.02rem;
+    background-color: #1D6CBF;
+}
+
+/* 项目案列列表 */
+.case_detailed {
+    display: block;
+    margin: 0 auto 0.16rem;
+    width: 3.43rem;
+    height: 2.4rem;
+    background: url(../imgs/upload/jiudian-343-240.jpg) no-repeat;
+    background-size: cover;
+}
+
+.case_detailed a {
+    display: block;
+    padding-top: 1.4rem;
+    width: 100%;
+    height: 100%;
+}
+
+.case_mask {
+    display: block;
+    padding-top: 0.65rem;
+    width: 100%;
+    height: 1rem;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 28%, rgba(0, 0, 0, 0.00) 100%);
+    font-size: 0.15rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+/* 更多 */
+.case_more {
+    overflow: hidden;
+    /* margin-top: 0.24rem; */
+    margin: 0.24rem auto 0.6rem;
+    width: 3.27rem;
+    height: 0.44rem;
+    border-radius: 0.22rem;
+    background-color: #1D6CBF;
+}
+
+.case_more a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 0.14rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.44rem;
+}

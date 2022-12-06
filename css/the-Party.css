@@ -1,0 +1,113 @@
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 主图 */
+.top_img {
+    width: 100%;
+    height: 2.4rem;
+}
+
+/* 党建选择 */
+.the_nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 3.43rem;
+    height: 1.04rem;
+}
+
+.the_nav li {
+    width: 1.4rem;
+    height: 0.48rem;
+    background-color: #F5F7FA;
+}
+
+.the_nav li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 0.16rem;
+    text-align: center;
+    line-height: 0.48rem;
+    color: #252626;
+}
+
+.the_nav li a:hover {
+    background-color: #1D6CBF;
+    color: #fff;
+}
+
+/* 党建列表 */
+.the_list {
+    /* display: block; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.32rem;
+    width: 3.43rem;
+    height: 1.4rem;
+    border-bottom: 0.01rem solid #D8D8D8;
+}
+
+.the_list img {
+    width: 1.44rem;
+    height: 1.12rem;
+}
+
+.the_list_right {
+    padding-top: 0.06rem;
+    width: 1.83rem;
+}
+
+.list_right_1 {
+    margin-bottom: 0.07rem;
+    font-size: 0.16rem;
+    line-height: 1;
+    color: #252626;
+}
+
+.list_right_2 {
+    margin-bottom: 0.11rem;
+    font-size: 0.14rem;
+    line-height: 0.24rem;
+    color: #252626;
+}
+
+.list_right_3 {
+    font-size: 0.14rem;
+    line-height: 1;
+    color: #BBBDBF;
+}
+
+/* 换页 */
+.the_jump {
+    display: flex;
+    margin: 0.08rem 0 0.6rem;
+    width: 3.45rem;
+    height: 0.5rem;
+    border: 0.01rem solid #F5F7FA;
+}
+
+.the_jump li {
+    width: 1.15rem;
+    height: 100%;
+    font-size: 0.16rem;
+    color: #252626;
+    text-align: center;
+    line-height: 0.5rem;
+}
+
+.the_jump li:nth-child(1),
+.the_jump li:nth-child(3) {
+    background-color: #F5F7FA;
+    width: 1.14rem;
+}
+
+.the_jump li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #252626;
+}

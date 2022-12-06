@@ -90,7 +90,7 @@ article {
 }
 
 .ann_jump li {
-    width: 1.14rem;
+    width: 1.15rem;
     height: 100%;
     font-size: 0.16rem;
     color: #252626;
@@ -101,6 +101,7 @@ article {
 .ann_jump li:nth-child(1),
 .ann_jump li:nth-child(3) {
     background-color: #F5F7FA;
+    width: 1.14rem;
 }
 
 .ann_jump li a {
